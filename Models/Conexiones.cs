@@ -8,6 +8,6 @@ namespace ApiEmpresa.Models
         {
         }
 
-        public DbSet<Clientes> Clientes { get; set; } =null!;
+        public DbSet<Clientes> Clientes { get; set; } = null!;
     }
 }

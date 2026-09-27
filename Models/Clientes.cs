@@ -1,14 +1,29 @@
-namespace ApiEmpresa.Models;
 using System.ComponentModel.DataAnnotations;
 
-    public class Clientes{
-    [Key]
-        public Int32 Id_cliente { get; set; }
-        public string? cui { get; set; }
-        public string? nit { get; set; }
-       public string? nombres { get; set; }
-        public string? apellidos { get; set; }
-        public string? direccion { get; set; }
-        public string? telefono { get; set; }
-        public DateTime? fecha_nacimiento { get; set; }
+namespace ApiEmpresa.Models
+{
+    public class Clientes
+    {
+        [Key]
+        public int Id_cliente { get; set; }
+        
+        [Required]
+        public string CUI { get; set; } = string.Empty;
+        
+        [Required]
+        public string NIT { get; set; } = string.Empty;
+        
+        [Required]
+        public string Nombres { get; set; } = string.Empty;
+        
+        [Required]
+        public string Apellidos { get; set; } = string.Empty;
+        
+        public string? Direccion { get; set; }
+        
+        public string? Telefono { get; set; }
+        
+        [Required]
+        public DateTime Fecha_Nacimiento { get; set; }
     }
+}
