@@ -7150,24 +7150,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Nacho\\.nuget\\packages\\": {}
+    "C:\\Users\\Kitsune\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nacho\\Desktop\\ApiEmpresa\\ApiEmpresa.csproj",
+      "projectUniqueName": "C:\\Users\\Kitsune\\Documents\\ApiEmpresa-main\\ApiEmpresa.csproj",
       "projectName": "ApiEmpresa",
-      "projectPath": "C:\\Users\\Nacho\\Desktop\\ApiEmpresa\\ApiEmpresa.csproj",
-      "packagesPath": "C:\\Users\\Nacho\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nacho\\Desktop\\ApiEmpresa\\obj\\",
+      "projectPath": "C:\\Users\\Kitsune\\Documents\\ApiEmpresa-main\\ApiEmpresa.csproj",
+      "packagesPath": "C:\\Users\\Kitsune\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kitsune\\Documents\\ApiEmpresa-main\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Nacho\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Kitsune\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
